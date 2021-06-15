@@ -3,8 +3,6 @@ pipeline {
     tools {
         maven "maven"
     }
-   parameters {
-   }
     stages {
         stage('Install') {
             steps {
